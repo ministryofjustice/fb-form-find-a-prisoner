@@ -1,0 +1,14 @@
+{
+  "_id": "page.dob",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.dob--date.auto_name__12",
+      "_type": "date",
+      "hint": "For example, 31 3 1980.",
+      "label": "What is the persons date of birth?",
+      "name": "auto_name__12"
+    }
+  ],
+  "url": "dob"
+}

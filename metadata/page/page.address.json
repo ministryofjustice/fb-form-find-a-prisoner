@@ -1,0 +1,41 @@
+{
+  "_id": "page.address",
+  "_type": "page.form",
+  "components": [
+    {
+      "_id": "page.address--group",
+      "_type": "group",
+      "components": [
+        {
+          "_id": "page.address--group--text.auto_name__5",
+          "_type": "text",
+          "label": "Building and street",
+          "name": "auto_name__5"
+        },
+        {
+          "_id": "page.address--group--text.auto_name__6",
+          "_type": "text",
+          "label": "Town or city",
+          "name": "auto_name__6"
+        },
+        {
+          "_id": "page.address--group--text.auto_name__7",
+          "_type": "text",
+          "errors": {
+            "pattern": {
+              "inline": "Your answer does not appear to be a valid postcode",
+              "summary": "Your answer for {control} does not appear to be a valid postcode"
+            }
+          },
+          "label": "Postcode",
+          "name": "auto_name__7",
+          "validation": {
+            "pattern": "([Gg][Ii][Rr] 0[Aa]{2})|((([A-Za-z][0-9]{1,2})|(([A-Za-z][A-Ha-hJ-Yj-y][0-9]{1,2})|(([A-Za-z][0-9][A-Za-z])|([A-Za-z][A-Ha-hJ-Yj-y][0-9][A-Za-z]?))))\\s?[0-9][A-Za-z]{2})"
+          }
+        }
+      ]
+    }
+  ],
+  "heading": "What is your address?",
+  "url": "address"
+}
